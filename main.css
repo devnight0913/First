@@ -1,0 +1,88 @@
+/* CSS styles here */
+.map-container {
+  height: 400px; /* Adjust the height as needed */
+}
+
+.container1 {
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.record-box1 {
+  background-color: #fff;
+  width: 50%;
+  padding: 1vw;
+  float: left;
+  display: contents;
+}
+
+.column-image1 {
+  width: 50%;
+  padding-top: 10px;
+}
+.column-image1 img {
+  width: 100%;
+}
+
+.column-info1 {
+  width: 50%;
+  height: auto;
+  float: right;
+  padding-top: 10%;
+  padding-left: 2vw;
+}
+
+.image-container1 {
+  width: 100%;
+  max-width: 25vw;
+  max-height: auto;
+  margin: 1vw;
+}
+
+.facility-info1 {
+  margin: 10px;
+}
+
+.map-container1 {
+  width: 100%;
+  height: 100% !important;
+  padding-bottom: 56.25%; /* Aspect ratio for a 16:9 container */
+  position: relative;
+  float: left;
+}
+
+.map {
+  width: 50%;
+  height: 80vh !important;
+  float: right;
+
+}
+
+.map-container1 #map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* height: 50vh; */
+}
+
+.record-image {
+  max-width: auto;
+  max-height: auto;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+.facility-name {
+  font-size: 1.6vw;
+  font-weight: bold;
+  font-family: Georgia, serif;
+}
+
+.facility-address,
+.facility-pricing {
+  margin-top: 0px;
+  font-size: 1vw;
+  font-weight: bold;
+  font-family: Georgia, Serif;
+}
